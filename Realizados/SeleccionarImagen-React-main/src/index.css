@@ -1,0 +1,610 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: black; 
+}
+
+.voar {
+    color: white;
+}
+
+/* HEADER SESION INICIADA */ 
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 70px;
+	padding: 10px 10%;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-color: yellow;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.logo img{
+	height: 100px;
+	width: auto;
+	transition: all 0.3s;
+}
+
+.logo img:hover{
+	transform: scale(1.2);
+}
+
+.logo-nombre{
+	font-weight: 600;
+	font-size: 60px;
+	color: white;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	gap: 70px;
+}
+
+nav a{
+	font-weight: 100;
+	color: white;
+	margin-left: 0px;
+	font-size: auto;
+}
+
+nav a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.amarillo{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.carrito img{
+	height: 70px;
+	width: auto;
+	transition: all 0.3s;
+	margin-left: 100px ;
+}
+
+.carrito img:hover{
+	transform: scale(1.2);
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+/* DESPLEGABLE CUENTA */
+
+li, ul, ol {
+    list-style: none;
+}
+
+.desplegable-cuenta li a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+	background-color: black;
+    text-align: center;
+    border: white 1px solid;
+    color: white;
+}
+
+.centrar ul{
+	padding: 40px;
+}
+
+.desplegable-cuenta :hover {
+    background-color: rgb(170, 200, 1);
+    margin: auto;
+}
+
+.cuenta li ul{
+    display: none;
+    position: absolute;
+    margin: auto;
+}
+
+.cuenta li:hover > ul{
+    display: block;
+    z-index: 1000;
+
+}
+
+.cerrar-sesion:hover{
+    background-color: red;
+}
+
+.centrar{
+	display: flex;
+	justify-content: center;
+}
+
+.personita{
+	margin-right: 5px;
+}
+
+.imagen-texto{
+	display: flex;
+	align-items: center;
+}
+
+/* DESPLEGABLE CATEGORIAS */
+
+.categorias {
+	width: 900px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 3px yellow solid;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.categorias-texto:hover .categorias {
+    display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	gap: 200px;
+}
+
+.categorias h2 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+	color: black;
+	font-weight: 600;
+}
+
+.categorias ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.categorias ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.espacio li{
+	margin-bottom: 15px;
+}
+
+.categorias ul li a:hover {
+    text-decoration: underline 3px;
+}
+
+.categorias h2:hover {
+    text-decoration: underline 3px;
+}
+
+.categorias-texto{
+	display: flex;
+	justify-content: center;
+}
+
+.hola{
+	padding: 0px;
+}
+
+.union{
+	padding: 0px;
+}
+
+.desplegable-cuenta li a{
+	width: 250px;
+	padding: 15px 10px;
+}
+
+/*MAIN*/
+.cuadro {
+	width: 900px;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 1.5rem;
+	gap: 5rem;
+	margin-bottom: 50px;
+}
+
+main h1{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-weight: 600;
+	font-size: 70px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.iconos{
+	display: flex;
+	gap: 2.5rem;
+	width: 50rem;
+}
+
+main .boton{
+	background-color: yellow;
+	width: 170px;
+	height: 40px;
+	border-radius: 2rem;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+main .boton-grande{
+	width: 350px;
+}
+
+main .separar{
+	display: flex;
+	gap: 30rem;
+	margin-top: 60px;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 2000px) {
+	/*HEADER*/
+	header{
+		padding: 0px 10%;
+	}
+	nav {
+		gap: 50px;
+		font-size: 17px;
+	}
+	
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias-texto:hover .categorias {
+		margin-top: 30px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.centrar ul{
+		padding: 30px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.desplegable-cuenta li a{
+		width: 200px;
+	}
+}
+
+@media (max-width: 1700px) {
+	/*HEADER*/
+	.logo{
+		gap: 40px;
+	}
+	.carrito img{
+		margin-left: 20px;
+		height: 50px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 600px;
+	}
+	.categorias-texto:hover .categorias {
+		gap: 100px;
+	}
+
+	/*DESPLEGABLE CUENTA*/
+	.personita{
+		width: 14px;
+	}
+	.centrar ul{
+		padding: 30px;
+	}
+}
+
+@media (max-width: 1440px) {
+	/*HEADER*/
+	.logo{
+		gap: 0;
+	}
+	nav {
+		gap: 35px;
+		font-size: 15px;
+	}
+	.carrito img{
+		height: 45px;
+		margin-left: 20px;
+	}
+
+	/*DESPLEGABLE CUENTA*/
+	.desplegable-cuenta li a{
+		width: 170px;
+	}
+
+	/*MAIN*/
+	.cuadro {
+		width: 700px;
+		height: 340px;
+		gap: 4rem;
+		margin-bottom: 30px;
+	}
+	main h1{
+		font-size: 70px;
+		margin-bottom: 10px;
+	}
+	main{
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+	.iconos{
+		gap: 1.2rem;
+		width: 40rem;
+	}
+	main .boton{
+		width: 140px;
+		height: 32px;
+		font-size: 15px;
+	}
+	main .boton-grande{
+		width: 350px;
+	}
+	main .separar{
+		gap: 17rem;
+		margin-top: 40px;
+	}
+}
+@media (max-width: 1150px) {
+	/*HEADER*/
+	header{
+		padding: 0px 4%;
+	}
+	.logo{
+		gap: 10px;
+		height: 40px;
+	}
+	.logo-nombre{
+		font-size: 45px;
+	}
+	.carrito img{
+		margin-left: 2px;
+		height: 35px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias-texto:hover .categorias {
+		margin-top: 27px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.centrar ul{
+		padding: 27px;
+	}
+}
+
+	/*TABLET*/
+@media (max-width: 900px) {
+	/*HEADER*/
+	header{
+		flex-direction: column;
+		margin: 0px;
+		margin-top: 20px;
+	}
+	.logo{
+		gap: 0;
+	}
+	nav {
+		font-size: 16px;
+	}
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 550px;
+		margin-left: 200px;
+	}
+	.categorias-texto:hover .categorias {
+		gap: 70px;
+	}
+
+	/*MAIN*/
+	.cuadro {
+		width: 500px;
+		height: 200px;
+		border-radius: 1.3rem;
+		gap: 3rem;
+	}
+	main h1{
+		font-size: 40px;
+	}
+	.iconos{
+		gap: 1.2rem;
+		width: 30rem;
+	}
+	main .boton{
+		width: 150px;
+		height: 32px;
+	}
+	main .boton-grande{
+		width: 380px;
+	}
+	main .separar{
+		gap: 12rem;
+	}
+}
+@media (max-width: 600px) {
+	/*HEADER*/
+	nav {
+		font-size: 13px;
+	}
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 450px;
+		margin-left: 150px;
+	}
+
+	/*DESPLEGABLE CUENTA*/
+}
+@media (max-width: 500px) {
+	/*HEADER*/
+	.logo{
+		height: 30px;
+	}
+	nav {
+		gap: 22px;
+		font-size: 11px;
+	}
+	.carrito img{
+		height: 30px;
+	}
+	.logo-nombre{
+		font-size: 35px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.desplegable-cuenta li a{
+		width: 130px;
+		padding: 10px 5px;
+	}
+	.centrar ul{
+		padding: 20px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias-texto:hover .categorias {
+		margin-top: 20px;
+	}
+
+	/*MAIN*/
+	.cuadro {
+		width: 380px;
+		height: 180px;
+	}
+	.iconos{
+		gap: 1rem;
+		width: 22rem;
+	}
+	main h1{
+		font-size: 35px;
+	}
+	main .boton{
+		width: 100px;
+		height: 32px;
+		font-size: 11px;
+	}
+	main .boton-grande{
+		width: 250px;
+	}
+}
+
+@media (max-width: 400px) {
+	/*HEADER*/
+	nav {
+		gap: 15px;
+		font-size: 9px;
+	}
+	.carrito img{
+		margin-left: 5px;
+		height: 25px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 330px;
+		margin-left: 120px;
+	}
+	.categorias-texto:hover .categorias {
+		gap: 30px;
+	}
+
+	/*MAIN*/
+	.cuadro {
+		width: 300px;
+		height: 150px;
+		gap: 2rem;
+	}
+	.iconos{
+		gap: 0.5rem;
+		width: 17rem;
+	}
+	main h1{
+		font-size: 25px;
+	}
+	main .boton{
+		width: 90px;
+		height: 27Px;
+		font-size: 9px;
+	}
+	main .boton-grande{
+		width: 210px;
+	}
+	main .separar{
+		gap: 7rem;
+	}
+}
+
+@media (max-width: 315px) {
+	/*HEADER*/
+	.logo{
+		height: 5px;
+	}
+	nav {
+		font-size: 8px;
+	}
+	.carrito img{
+		margin-left: 3px;
+	}
+	.logo-nombre{
+		font-size: 30px;
+	}
+	.logo img{
+		height: 70px;
+	}
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 270px;
+		padding: 10px;
+	}
+	
+	/*DESPLEGABLE CUENTA*/
+
+	.personita{
+		width: 9px;
+	}
+
+	/*MAIN*/
+	.cuadro {
+		width: 250px;
+		height: 130px;
+		gap: 1.5rem;
+	}
+	.iconos{
+		gap: 0.4rem;
+		width: 14rem;
+	}
+	main h1{
+		font-size: 20px;
+	}
+	main .boton{
+		width: 80px;
+		height: 25Px;
+		font-size: 8px;
+	}
+	main .boton-grande{
+		width: 190px;
+	}
+	main .separar{
+		gap: 5rem;
+	}
+}

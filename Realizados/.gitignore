@@ -1,0 +1,302 @@
+
+Login-React-main/.eslintrc.cjs
+Login-React-main/index.html
+Login-React-main/package-lock.json
+Login-React-main/package.json
+Login-React-main/postcss.config.js
+Login-React-main/public/vite.svg
+Login-React-main/README.md
+Login-React-main/src/App.jsx
+Login-React-main/src/assets/images/CamisetaBlanca.png
+Login-React-main/src/assets/images/CamisetaFutbol.png
+Login-React-main/src/assets/images/CarritoDeCompras.png
+Login-React-main/src/assets/images/Icon.svg
+Login-React-main/src/assets/images/IconBuscador.svg
+Login-React-main/src/assets/images/IconCampana.svg
+Login-React-main/src/assets/images/IconCarrito.svg
+Login-React-main/src/assets/images/IconFacebook.png
+Login-React-main/src/assets/images/IconFacebook.svg
+Login-React-main/src/assets/images/IconInstagram.png
+Login-React-main/src/assets/images/IconInstagram_1.svg
+Login-React-main/src/assets/images/IconPants.svg
+Login-React-main/src/assets/images/IconShirt.svg
+Login-React-main/src/assets/images/IconWhatsapp.png
+Login-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Login-React-main/src/assets/images/Untitled.png
+Login-React-main/src/assets/images/VOAR.png
+Login-React-main/src/assets/images/WhatsApp Image 2024-05-17 at 10.31.34 AM(1).jpeg
+Login-React-main/src/assets/react.svg
+Login-React-main/src/components/Header.jsx
+Login-React-main/src/components/icons/Icon.jsx
+Login-React-main/src/components/icons/IconBuscador.jsx
+Login-React-main/src/components/icons/IconCampana.jsx
+Login-React-main/src/components/icons/IconCarrito.jsx
+Login-React-main/src/components/icons/IconPants.jsx
+Login-React-main/src/components/icons/IconShirt.jsx
+Login-React-main/src/components/Main.jsx
+Login-React-main/src/index.css
+Login-React-main/src/main.jsx
+Login-React-main/tailwind.config.js
+Login-React-main/vite.config.js
+ProyectoSena-React
+Realizados/Categorias-React-main/.eslintrc.cjs
+Realizados/Categorias-React-main/index.html
+Realizados/Categorias-React-main/package-lock.json
+Realizados/Categorias-React-main/package.json
+Realizados/Categorias-React-main/public/vite.svg
+Realizados/Categorias-React-main/README.md
+Realizados/Categorias-React-main/src/App.jsx
+Realizados/Categorias-React-main/src/assets/images/CarritoDeCompras.png
+Realizados/Categorias-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/Categorias-React-main/src/assets/images/VOAR.png
+Realizados/Categorias-React-main/src/assets/react.svg
+Realizados/Categorias-React-main/src/components/Header.jsx
+Realizados/Categorias-React-main/src/components/Main.jsx
+Realizados/Categorias-React-main/src/index.css
+Realizados/Categorias-React-main/src/main.jsx
+Realizados/Categorias-React-main/vite.config.js
+Realizados/confirmardatos-main/.eslintrc.cjs
+Realizados/confirmardatos-main/index.html
+Realizados/confirmardatos-main/package-lock.json
+Realizados/confirmardatos-main/package.json
+Realizados/confirmardatos-main/postcss.config.js
+Realizados/confirmardatos-main/public/vite.svg
+Realizados/confirmardatos-main/README.md
+Realizados/confirmardatos-main/src/App.jsx
+Realizados/confirmardatos-main/src/assets/images/CarritoDeCompras.png
+Realizados/confirmardatos-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/confirmardatos-main/src/assets/images/VOAR.png
+Realizados/confirmardatos-main/src/assets/react.svg
+Realizados/confirmardatos-main/src/components/Header.jsx
+Realizados/confirmardatos-main/src/components/Main.jsx
+Realizados/confirmardatos-main/src/index.css
+Realizados/confirmardatos-main/src/main.jsx
+Realizados/confirmardatos-main/tailwind.config.js
+Realizados/confirmardatos-main/vite.config.js
+Realizados/Descripcion-React-main/.eslintrc.cjs
+Realizados/Descripcion-React-main/index.html
+Realizados/Descripcion-React-main/package-lock.json
+Realizados/Descripcion-React-main/package.json
+Realizados/Descripcion-React-main/postcss.config.js
+Realizados/Descripcion-React-main/public/vite.svg
+Realizados/Descripcion-React-main/README.md
+Realizados/Descripcion-React-main/src/App.jsx
+Realizados/Descripcion-React-main/src/assets/images/CarritoDeCompras.png
+Realizados/Descripcion-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/Descripcion-React-main/src/assets/images/señor.jpeg
+Realizados/Descripcion-React-main/src/assets/images/Untitled.png
+Realizados/Descripcion-React-main/src/assets/images/VOAR.png
+Realizados/Descripcion-React-main/src/assets/react.svg
+Realizados/Descripcion-React-main/src/components/Header.jsx
+Realizados/Descripcion-React-main/src/components/Main.jsx
+Realizados/Descripcion-React-main/src/index.css
+Realizados/Descripcion-React-main/src/main.jsx
+Realizados/Descripcion-React-main/tailwind.config.js
+Realizados/Descripcion-React-main/vite.config.js
+Realizados/EditarCuenta-React-main/.eslintrc.cjs
+Realizados/EditarCuenta-React-main/index.html
+Realizados/EditarCuenta-React-main/package-lock.json
+Realizados/EditarCuenta-React-main/package.json
+Realizados/EditarCuenta-React-main/public/vite.svg
+Realizados/EditarCuenta-React-main/README.md
+Realizados/EditarCuenta-React-main/src/App.jsx
+Realizados/EditarCuenta-React-main/src/assets/images/Fondo.png
+Realizados/EditarCuenta-React-main/src/assets/images/Lapiz.png
+Realizados/EditarCuenta-React-main/src/assets/images/oculto.png
+Realizados/EditarCuenta-React-main/src/assets/images/persona.png
+Realizados/EditarCuenta-React-main/src/assets/images/VOAR.png
+Realizados/EditarCuenta-React-main/src/assets/react.svg
+Realizados/EditarCuenta-React-main/src/components/CambiarContrasena.jsx
+Realizados/EditarCuenta-React-main/src/components/CambiarCorreo.jsx
+Realizados/EditarCuenta-React-main/src/components/CambiarDireccion.jsx
+Realizados/EditarCuenta-React-main/src/components/Header.jsx
+Realizados/EditarCuenta-React-main/src/components/Main.jsx
+Realizados/EditarCuenta-React-main/src/index.css
+Realizados/EditarCuenta-React-main/src/main.jsx
+Realizados/EditarCuenta-React-main/tailwind.config.js
+Realizados/EditarCuenta-React-main/vite.config.js
+Realizados/InicioLogeado-React-main/.eslintrc.cjs
+Realizados/InicioLogeado-React-main/index.html
+Realizados/InicioLogeado-React-main/InicioLogeado-React-main/src/index.css
+Realizados/InicioLogeado-React-main/package-lock.json
+Realizados/InicioLogeado-React-main/package.json
+Realizados/InicioLogeado-React-main/postcss.config.js
+Realizados/InicioLogeado-React-main/public/vite.svg
+Realizados/InicioLogeado-React-main/README.md
+Realizados/InicioLogeado-React-main/src/App.jsx
+Realizados/InicioLogeado-React-main/src/assets/images/CamisetaBlanca.png
+Realizados/InicioLogeado-React-main/src/assets/images/CamisetaFutbol.png
+Realizados/InicioLogeado-React-main/src/assets/images/CarritoDeCompras.png
+Realizados/InicioLogeado-React-main/src/assets/images/Facebook.png
+Realizados/InicioLogeado-React-main/src/assets/images/Fondo.png
+Realizados/InicioLogeado-React-main/src/assets/images/Instagram.png
+Realizados/InicioLogeado-React-main/src/assets/images/Lapiz.png
+Realizados/InicioLogeado-React-main/src/assets/images/oculto.png
+Realizados/InicioLogeado-React-main/src/assets/images/persona.png
+Realizados/InicioLogeado-React-main/src/assets/images/png-transparent-computer-icons-login-user-profile-client-smiley-значки-windows-10.png
+Realizados/InicioLogeado-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/InicioLogeado-React-main/src/assets/images/señor.jpeg
+Realizados/InicioLogeado-React-main/src/assets/images/VOAR.png
+Realizados/InicioLogeado-React-main/src/assets/images/WhatsApp.png
+Realizados/InicioLogeado-React-main/src/assets/react.svg
+Realizados/InicioLogeado-React-main/src/components/Footer.jsx
+Realizados/InicioLogeado-React-main/src/components/Header.jsx
+Realizados/InicioLogeado-React-main/src/components/Items.jsx
+Realizados/InicioLogeado-React-main/src/components/Main.jsx
+Realizados/InicioLogeado-React-main/src/components/Productos.jsx
+Realizados/InicioLogeado-React-main/src/index.css
+Realizados/InicioLogeado-React-main/src/main.jsx
+Realizados/InicioLogeado-React-main/tailwind.config.js
+Realizados/InicioLogeado-React-main/vite.config.js
+Realizados/Login-React-main/
+Realizados/ProyectoSena-React/
+Realizados/Registro-React-main NUEVO/.eslintrc.cjs
+Realizados/Registro-React-main NUEVO/index.html
+Realizados/Registro-React-main NUEVO/package-lock.json
+Realizados/Registro-React-main NUEVO/package.json
+Realizados/Registro-React-main NUEVO/postcss.config.js
+Realizados/Registro-React-main NUEVO/public/vite.svg
+Realizados/Registro-React-main NUEVO/README.md
+Realizados/Registro-React-main NUEVO/src/App.jsx
+Realizados/Registro-React-main NUEVO/src/assets/icons/Icon.jsx
+Realizados/Registro-React-main NUEVO/src/assets/icons/IconBuscador.jsx
+Realizados/Registro-React-main NUEVO/src/assets/icons/IconCampana.jsx
+Realizados/Registro-React-main NUEVO/src/assets/icons/IconCarrito.jsx
+Realizados/Registro-React-main NUEVO/src/assets/icons/IconOculto.png
+Realizados/Registro-React-main NUEVO/src/assets/icons/IconPants.jsx
+Realizados/Registro-React-main NUEVO/src/assets/icons/IconShirt.jsx
+Realizados/Registro-React-main NUEVO/src/assets/images/CamisetaBlanca.png
+Realizados/Registro-React-main NUEVO/src/assets/images/CamisetaFutbol.png
+Realizados/Registro-React-main NUEVO/src/assets/images/CarritoDeCompras.png
+Realizados/Registro-React-main NUEVO/src/assets/images/Icon.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconBuscador.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconCampana.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconCarrito.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconFacebook.png
+Realizados/Registro-React-main NUEVO/src/assets/images/IconFacebook.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconInstagram.png
+Realizados/Registro-React-main NUEVO/src/assets/images/IconInstagram_1.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconPants.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconShirt.svg
+Realizados/Registro-React-main NUEVO/src/assets/images/IconWhatsapp.png
+Realizados/Registro-React-main NUEVO/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/Registro-React-main NUEVO/src/assets/images/Untitled.png
+Realizados/Registro-React-main NUEVO/src/assets/images/VOAR.png
+Realizados/Registro-React-main NUEVO/src/assets/images/WhatsApp Image 2024-05-17 at 10.31.34 AM(1).jpeg
+Realizados/Registro-React-main NUEVO/src/assets/react.svg
+Realizados/Registro-React-main NUEVO/src/components/Header.jsx
+Realizados/Registro-React-main NUEVO/src/components/Main.jsx
+Realizados/Registro-React-main NUEVO/src/index.css
+Realizados/Registro-React-main NUEVO/src/main.jsx
+Realizados/Registro-React-main NUEVO/tailwind.config.js
+Realizados/Registro-React-main NUEVO/vite.config.js
+Realizados/Registro-React-main/.eslintrc.cjs
+Realizados/Registro-React-main/index.html
+Realizados/Registro-React-main/package-lock.json
+Realizados/Registro-React-main/package.json
+Realizados/Registro-React-main/postcss.config.js
+Realizados/Registro-React-main/public/vite.svg
+Realizados/Registro-React-main/README.md
+Realizados/Registro-React-main/src/App.jsx
+Realizados/Registro-React-main/src/assets/icons/Icon.jsx
+Realizados/Registro-React-main/src/assets/icons/IconBuscador.jsx
+Realizados/Registro-React-main/src/assets/icons/IconCampana.jsx
+Realizados/Registro-React-main/src/assets/icons/IconCarrito.jsx
+Realizados/Registro-React-main/src/assets/icons/IconOculto.png
+Realizados/Registro-React-main/src/assets/icons/IconPants.jsx
+Realizados/Registro-React-main/src/assets/icons/IconShirt.jsx
+Realizados/Registro-React-main/src/assets/images/CamisetaBlanca.png
+Realizados/Registro-React-main/src/assets/images/CamisetaFutbol.png
+Realizados/Registro-React-main/src/assets/images/CarritoDeCompras.png
+Realizados/Registro-React-main/src/assets/images/Icon.svg
+Realizados/Registro-React-main/src/assets/images/IconBuscador.svg
+Realizados/Registro-React-main/src/assets/images/IconCampana.svg
+Realizados/Registro-React-main/src/assets/images/IconCarrito.svg
+Realizados/Registro-React-main/src/assets/images/IconFacebook.png
+Realizados/Registro-React-main/src/assets/images/IconFacebook.svg
+Realizados/Registro-React-main/src/assets/images/IconInstagram.png
+Realizados/Registro-React-main/src/assets/images/IconInstagram_1.svg
+Realizados/Registro-React-main/src/assets/images/IconPants.svg
+Realizados/Registro-React-main/src/assets/images/IconShirt.svg
+Realizados/Registro-React-main/src/assets/images/IconWhatsapp.png
+Realizados/Registro-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/Registro-React-main/src/assets/images/Untitled.png
+Realizados/Registro-React-main/src/assets/images/VOAR.png
+Realizados/Registro-React-main/src/assets/images/WhatsApp Image 2024-05-17 at 10.31.34 AM(1).jpeg
+Realizados/Registro-React-main/src/assets/react.svg
+Realizados/Registro-React-main/src/components/Header.jsx
+Realizados/Registro-React-main/src/components/icons/Icon.jsx
+Realizados/Registro-React-main/src/components/icons/IconBuscador.jsx
+Realizados/Registro-React-main/src/components/icons/IconCampana.jsx
+Realizados/Registro-React-main/src/components/icons/IconCarrito.jsx
+Realizados/Registro-React-main/src/components/icons/IconPants.jsx
+Realizados/Registro-React-main/src/components/icons/IconShirt.jsx
+Realizados/Registro-React-main/src/components/Main.jsx
+Realizados/Registro-React-main/src/index.css
+Realizados/Registro-React-main/src/main.jsx
+Realizados/Registro-React-main/tailwind.config.js
+Realizados/Registro-React-main/vite.config.js
+Realizados/SeleccionarImagen-React-main/.eslintrc.cjs
+Realizados/SeleccionarImagen-React-main/index.html
+Realizados/SeleccionarImagen-React-main/package-lock.json
+Realizados/SeleccionarImagen-React-main/package.json
+Realizados/SeleccionarImagen-React-main/postcss.config.js
+Realizados/SeleccionarImagen-React-main/public/vite.svg
+Realizados/SeleccionarImagen-React-main/README.md
+Realizados/SeleccionarImagen-React-main/SeleccionarImagen-React-main/src/components/Main.jsx
+Realizados/SeleccionarImagen-React-main/src/App.jsx
+Realizados/SeleccionarImagen-React-main/src/assets/images/CarritoDeCompras.png
+Realizados/SeleccionarImagen-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Realizados/SeleccionarImagen-React-main/src/assets/images/VOAR.png
+Realizados/SeleccionarImagen-React-main/src/assets/react.svg
+Realizados/SeleccionarImagen-React-main/src/components/Header.jsx
+Realizados/SeleccionarImagen-React-main/src/components/Main.jsx
+Realizados/SeleccionarImagen-React-main/src/index.css
+Realizados/SeleccionarImagen-React-main/src/main.jsx
+Realizados/SeleccionarImagen-React-main/tailwind.config.js
+Realizados/SeleccionarImagen-React-main/vite.config.js
+Registro-React-main/.eslintrc.cjs
+Registro-React-main/index.html
+Registro-React-main/package-lock.json
+Registro-React-main/package.json
+Registro-React-main/postcss.config.js
+Registro-React-main/public/vite.svg
+Registro-React-main/README.md
+Registro-React-main/src/App.jsx
+Registro-React-main/src/assets/icons/Icon.jsx
+Registro-React-main/src/assets/icons/IconBuscador.jsx
+Registro-React-main/src/assets/icons/IconCampana.jsx
+Registro-React-main/src/assets/icons/IconCarrito.jsx
+Registro-React-main/src/assets/icons/IconPants.jsx
+Registro-React-main/src/assets/icons/IconShirt.jsx
+Registro-React-main/src/assets/images/CamisetaBlanca.png
+Registro-React-main/src/assets/images/CamisetaFutbol.png
+Registro-React-main/src/assets/images/CarritoDeCompras.png
+Registro-React-main/src/assets/images/Icon.svg
+Registro-React-main/src/assets/images/IconBuscador.svg
+Registro-React-main/src/assets/images/IconCampana.svg
+Registro-React-main/src/assets/images/IconCarrito.svg
+Registro-React-main/src/assets/images/IconFacebook.png
+Registro-React-main/src/assets/images/IconFacebook.svg
+Registro-React-main/src/assets/images/IconInstagram.png
+Registro-React-main/src/assets/images/IconInstagram_1.svg
+Registro-React-main/src/assets/images/IconPants.svg
+Registro-React-main/src/assets/images/IconShirt.svg
+Registro-React-main/src/assets/images/IconWhatsapp.png
+Registro-React-main/src/assets/images/Screenshot from 2024-05-17 09-42-50.png
+Registro-React-main/src/assets/images/Untitled.png
+Registro-React-main/src/assets/images/VOAR.png
+Registro-React-main/src/assets/images/WhatsApp Image 2024-05-17 at 10.31.34 AM(1).jpeg
+Registro-React-main/src/assets/react.svg
+Registro-React-main/src/components/Header.jsx
+Registro-React-main/src/components/icons/Icon.jsx
+Registro-React-main/src/components/icons/IconBuscador.jsx
+Registro-React-main/src/components/icons/IconCampana.jsx
+Registro-React-main/src/components/icons/IconCarrito.jsx
+Registro-React-main/src/components/icons/IconPants.jsx
+Registro-React-main/src/components/icons/IconShirt.jsx
+Registro-React-main/src/components/Main.jsx
+Registro-React-main/src/index.css
+Registro-React-main/src/main.jsx
+Registro-React-main/tailwind.config.js
+Registro-React-main/vite.config.js

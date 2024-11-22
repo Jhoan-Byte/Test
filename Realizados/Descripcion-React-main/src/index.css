@@ -1,0 +1,657 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: black; 
+}
+
+.voar {
+    color: white;
+}
+
+/* HEADER SESION INICIADA */ 
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 70px;
+	padding: 10px 10%;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-color: yellow;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.logo img{
+	height: 100px;
+	width: auto;
+	transition: all 0.3s;
+}
+
+.logo img:hover{
+	transform: scale(1.2);
+}
+
+.logo-nombre{
+	font-weight: 600;
+	font-size: 60px;
+	color: white;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	gap: 70px;
+}
+
+nav a{
+	font-weight: 100;
+	color: white;
+	margin-left: 0px;
+	font-size: auto;
+}
+
+nav a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.amarillo{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.carrito img{
+	height: 70px;
+	width: auto;
+	transition: all 0.3s;
+	margin-left: 100px ;
+}
+
+.carrito img:hover{
+	transform: scale(1.2);
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+/* DESPLEGABLE CUENTA */
+
+li, ul, ol {
+    list-style: none;
+}
+
+.desplegable-cuenta li a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+	background-color: black;
+    text-align: center;
+    border: white 1px solid;
+    color: white;
+}
+
+.centrar ul{
+	padding: 40px;
+}
+
+.desplegable-cuenta :hover {
+    background-color: rgb(170, 200, 1);
+    margin: auto;
+}
+
+.cuenta li ul{
+    display: none;
+    position: absolute;
+    margin: auto;
+}
+
+.cuenta li:hover > ul{
+    display: block;
+    z-index: 1000;
+
+}
+
+.cerrar-sesion:hover{
+    background-color: red;
+}
+
+.centrar{
+	display: flex;
+	justify-content: center;
+}
+
+.personita{
+	margin-right: 5px;
+}
+
+.imagen-texto{
+	display: flex;
+	align-items: center;
+}
+
+/* DESPLEGABLE CATEGORIAS */
+
+.categorias {
+	width: 900px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 3px yellow solid;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.categorias-texto:hover .categorias {
+    display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	gap: 200px;
+}
+
+.categorias h2 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+	color: black;
+	font-weight: 600;
+}
+
+.categorias ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.categorias ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.espacio li{
+	margin-bottom: 15px;
+}
+
+.categorias ul li a:hover {
+    text-decoration: underline 3px;
+}
+
+.categorias h2:hover {
+    text-decoration: underline 3px;
+}
+
+.categorias-texto{
+	display: flex;
+	justify-content: center;
+}
+
+.hola{
+	padding: 0px;
+}
+
+.union{
+	padding: 0px;
+}
+
+.desplegable-cuenta li a{
+	width: 250px;
+	padding: 15px 10px;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 0px;
+	padding: 0%;
+	width: 100%;
+    margin-top: 50px;
+}
+
+main .cuadro{
+    display: flex;
+    background-color: white;
+    width: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+    border-radius: 1.2rem;
+    border: 2px solid gray;
+}
+
+/*CUADRO IMAGEN*/
+main .imagen{
+    display: flex;
+    height: 500px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+main .imagen img{
+    border-radius: 1.2rem;
+    border: 2px yellow solid;
+}
+
+/*CUADRO DESCRIPCION*/
+main .descripcion{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+main h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+main h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main .tallas{
+    display: flex;
+    gap: 20px;
+}
+
+main .tallas button{
+    display: flex;
+    background-color: gainsboro;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+main .colores{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+main .colores button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px black solid;
+}
+
+main .color1{
+    background-color: white;
+}
+
+main .color2{
+    background-color: cornflowerblue;
+}
+
+main .color3{
+    background-color: black;
+}
+
+main .precio{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+main .cantidad{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+main .cantidad button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    width: 22px;
+    height: 30px;
+    background-color: gainsboro;
+}
+
+/*CUADRO BOTONES*/
+
+main .botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+main .botones button{
+    background-color: yellow;
+    width: 250px;
+    height: 55px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+main .botones .boton-gris{
+    background-color: gray;
+    color: white;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 2000px) {
+	/*HEADER*/
+	header{
+		padding: 0px 10%;
+	}
+	nav {
+		gap: 50px;
+		font-size: 17px;
+	}
+	
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias-texto:hover .categorias {
+		margin-top: 30px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.centrar ul{
+		padding: 30px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.desplegable-cuenta li a{
+		width: 200px;
+	}
+}
+
+@media (max-width: 1700px) {
+	/*HEADER*/
+	.logo{
+		gap: 40px;
+	}
+	.carrito img{
+		margin-left: 20px;
+		height: 50px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 600px;
+	}
+	.categorias-texto:hover .categorias {
+		gap: 100px;
+	}
+
+	/*DESPLEGABLE CUENTA*/
+	.personita{
+		width: 14px;
+	}
+	.centrar ul{
+		padding: 30px;
+	}
+}
+
+@media (max-width: 1440px) {
+	/*HEADER*/
+	.logo{
+		gap: 0;
+	}
+	nav {
+		gap: 35px;
+		font-size: 15px;
+	}
+	.carrito img{
+		height: 45px;
+		margin-left: 20px;
+	}
+
+	/*DESPLEGABLE CUENTA*/
+	.desplegable-cuenta li a{
+		width: 170px;
+	}
+
+	/*MAIN*/
+	main .cuadro{
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
+@media (max-width: 1150px) {
+	/*HEADER*/
+	header{
+		padding: 0px 4%;
+	}
+	.logo{
+		gap: 10px;
+		height: 40px;
+	}
+	.logo-nombre{
+		font-size: 45px;
+	}
+	.carrito img{
+		margin-left: 2px;
+		height: 35px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias-texto:hover .categorias {
+		margin-top: 27px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.centrar ul{
+		padding: 27px;
+	}
+	main .cuadro{
+		margin-right: 1.5%;
+		margin-left: 1.5%;
+	}
+}
+
+	/*TABLET*/
+@media (max-width: 900px) {
+	/*HEADER*/
+	header{
+		flex-direction: column;
+		margin: 0px;
+		margin-top: 20px;
+	}
+	.logo{
+		gap: 0;
+	}
+	nav {
+		font-size: 16px;
+	}
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 550px;
+		margin-left: 200px;
+	}
+	.categorias-texto:hover .categorias {
+		gap: 70px;
+	}
+
+	/*MAIN*/
+    main .imagen{
+        width: 180px;
+        height: 305px;
+        justify-content: center;
+		margin: 0px;
+		margin-top: 20px;
+        align-items: center;
+    }
+
+    main .cuadro{
+		flex-direction: column;
+		align-items: center;
+        height: 700px;
+        width: 500px;
+    }
+	main{
+		margin-top: 10px;
+	}
+    main .tamaño-letra{
+		font-size: 30px;
+	}
+    main h2{
+        font-size: 15px;
+    }
+    main .botones{
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 20px;
+    }
+    main .botones button{
+        font-size: 12px;
+        width: 180px;
+    }
+    main .descripcion{
+        gap: 20px;
+		justify-content: center;
+		align-items: center;
+    }
+}
+@media (max-width: 600px) {
+	/*HEADER*/
+	nav {
+		font-size: 13px;
+	}
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 450px;
+		margin-left: 150px;
+	}
+
+	/*MAIN*/
+	main .tamaño-letra{
+		font-size: 20px;
+	}
+    main h2{
+        font-size: 10px;
+    }
+	main .botones button{
+        font-size: 10px;
+        width: 150px;
+    }
+	main .cuadro{
+        height: 650px;
+        width: 380px;
+    }
+}
+@media (max-width: 500px) {
+	/*HEADER*/
+	.logo{
+		height: 30px;
+	}
+	nav {
+		gap: 22px;
+		font-size: 11px;
+	}
+	.carrito img{
+		height: 30px;
+	}
+	.logo-nombre{
+		font-size: 35px;
+	}
+	/*DESPLEGABLE CUENTA*/
+	.desplegable-cuenta li a{
+		width: 130px;
+		padding: 10px 5px;
+	}
+	.centrar ul{
+		padding: 20px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias-texto:hover .categorias {
+		margin-top: 20px;
+	}
+
+}
+@media (max-width: 400px) {
+	/*HEADER*/
+	header nav {
+		gap: 15px;
+		font-size: 9px;
+	}
+	.carrito img{
+		margin-left: 5px;
+		height: 25px;
+	}
+
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 330px;
+		margin-left: 120px;
+	}
+	.categorias-texto:hover .categorias {
+		gap: 30px;
+	}
+	
+	/*MAIN*/
+	main .botones button{
+        font-size: 9px;
+        width: 125px;
+		height: 40px;
+    }
+	main .botones{
+		gap: 10px;
+	}
+	main .cuadro{
+        height: 500px;
+        width: 300px;
+    }
+	main .imagen{
+        width: 120px;
+    }
+    main .descripcion{
+        gap: 10px;
+    }
+    main .tallas button{
+		width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+	main .colores button{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media (max-width: 315px) {
+	/*HEADER*/
+	.logo{
+		height: 5px;
+	}
+	nav {
+		font-size: 8px;
+	}
+	.carrito img{
+		margin-left: 3px;
+	}
+	.logo-nombre{
+		font-size: 30px;
+	}
+	.logo img{
+		height: 70px;
+	}
+	/*DESPLEGABLE CATEGORIAS*/
+	.categorias {
+		width: 270px;
+		padding: 10px;
+	}
+	
+	/*DESPLEGABLE CUENTA*/
+
+	.personita{
+		width: 9px;
+	}
+
+}
